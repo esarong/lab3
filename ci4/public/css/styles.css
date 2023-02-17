@@ -1,0 +1,390 @@
+* {
+  box-sizing: border-box;
+}
+
+
+.topnav {
+  overflow: hidden;
+  background-color: DarkBlue ;
+  max-width: 100%; 
+  position: sticky;
+  top: 0;
+<<<<<<< HEAD
+  margin-bottom: auto;
+=======
+  margin-bottom; auto;
+>>>>>>> 32d8ff309daeafc5d03d9926cc3b3ce88a7569c2
+  border-bottom: 1px solid pink;
+  
+  
+}
+
+/* Navbar links */
+.topnav a {
+  float: left;
+  display: block;
+  color: hsla(320, 78%, 80%, 1);
+  text-align: center;
+  padding: 20px 30px;
+  text-decoration: none;
+  font-size: 30px;
+  font-family: Verdana, sans-serif;
+  border-right: 1px solid pink;
+;
+  
+}
+
+/* Links - change color on hover */
+.topnav a:hover {
+  background-color: DarkViolet;
+  color: black;
+}
+
+
+ 
+.intropic{
+	/*width: 300px;
+    height: 300px;*/
+	border-radius: 20%;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	margin-top: 3%;
+    width: 50%;
+	max-width: 20%;
+	box-sizing: border-box;
+	/*position: absolute;*/
+	/*z-index:2;*/
+	/*float: left;*/
+    
+}
+
+#nickname {
+	text-align: center;
+	font-size: 25px;
+	width: auto /*max(50%, 300px)*/;
+    background:DarkBlue;
+    padding: 50px;
+    color: White;
+    text-align:center;
+    line-height: 5px;
+	letter-spacing: 5px;
+	box-sizing: border-box;
+	outline-style: outset;
+	outline-color: hsla(320, 78%, 80%, 1);
+	outline-width: thick;
+	letter-spacing: 3px;
+	text-shadow: 2px 2px 6px black;
+	font-family: Georgia, serif;
+	margin-bottom: 30px;
+	/*clear:left;*/
+	/*text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;*/
+}
+
+body {
+  background-image: url('https://linkshortner.net/tnkzy');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  font-size: 100%;
+  counter-reset: section;
+  margin:0;
+  
+}
+/* I don't know what to do anymore*/
+#hw {
+    max-width: 70%;
+    background:rgba(180, 200, 229, 0.6);  /*(234, 55, 126, 0.6);*/
+    border-radius: 5%;
+    padding: 30px;
+    color: black;
+	margin-left: auto;
+	margin-right:auto;
+    text-align:center;
+	line-height: 2;
+    letter-spacing: 3px;
+	box-sizing: border-box;
+	outline: hsla(320, 78%, 80%, 1) solid 10px;
+	/*outline-offset: 15px;*/
+	font-family: Georgia, serif;
+	font-size: 0.9em;
+	overflow:auto;
+	/*box-shadow: 5px 5px blue, 10px 10px red, 15px 15px green;*/
+	
+}
+ /*
+a[target="_blank"] {
+  background-color: yellow;
+}
+#hw:hover p {
+	display:block;
+	
+}
+
+p::first-line {
+  color: #ff0000;
+  font-variant: small-caps;
+}
+*/
+	
+#bob  { 
+    text-align: center;
+	margin: 30px;
+	max-width: auto;
+    background:#00FF7F99;
+    padding: 50px;
+    color: black;
+    text-align:center;
+	letter-spacing: 5px;
+	box-sizing: border-box;
+	border:dotted;
+	outline: #4CAF50 solid 10px;
+	font-family: Tahoma, Verdana, sans-serif;
+	
+}
+	
+
+h1 {
+  color: black;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+p {
+  font-family: calibri;
+  font-size: 20px;
+  box-sizing: border-box;
+}
+
+
+.random{
+  background-color: tomato;
+  color: var(--white);
+  border: 2px solid yellow;
+  margin: 5px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+  
+  
+p.sigma {
+	text-decoration-line: underline;
+	text-decoration-style: dotted;  
+	text-decoration-thickness: 5px;
+
+	
+}
+
+
+#myHeader {
+  background-color: lightblue;
+  color: black;
+  padding: 40px;
+  text-align: center;
+  border-style: dotted solid;
+  border-color:steelblue;
+  box-sizing: border-box;
+  outline: thick ridge pink;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+} 
+
+#company {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 50%;
+  background-color: rgba(120, 255, 192, 0.6);
+  margin:auto;
+}
+
+#company td, #company th {
+  border: 3px solid #ddd;
+  padding: 8px;
+  text-align: center;
+  vertical-align: middle;
+  border-bottom: 1px solid #ddd;
+}
+
+#company th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #04AA6D;
+  color: white;
+}
+
+#customers tr:hover {
+	background-color: #ddd;}
+	
+#customers tr:nth-child(even)
+{background-color: #f3f2f9;}
+
+
+
+
+
+ul.a {
+	list-style-type: circle;
+	list-style-position: outside;
+	background: #3399ff;
+	padding: 20px;
+
+
+}
+ul li{
+	background: #ffe5e5;
+	  color: darkred;
+	  padding: 5px;
+	  margin-left: 35px;
+	  padding: 5px;
+
+
+}
+
+.lower{
+	text-align:center;
+	box-sizing: border-box;
+	
+}
+
+
+.footer {
+	text-align: center;
+	border-style: solid;
+    border-color: white;
+	background-color: /*teal*/DarkBlue;
+	border-width: 3px; 
+	padding: 5px;
+	color:white;
+	box-sizing: border-box;
+	/*outline-style: solid;
+	outline-color: invert;
+	outline-width: thick; */
+	font-family: Verdana, sans-serif;
+}
+
+#grad1 {
+  height: 200px;
+  background-color: red; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to right, red , yellow);
+}
+
+:root {
+  --blue: #1e90ff;
+  --white: #ffffff;
+}
+
+.grid-container {
+  display: inline-grid;
+  grid-template-columns: auto auto auto;
+  background-color: #2196F3;
+  padding: 10px;
+}
+
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+/*
+.flex-container {
+  display: flex;
+  background-color: DodgerBlue;
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+}
+
+
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+
+
+div > p {
+  background-color: yellow;
+}
+
+
+#home a:hover {
+  background: url('img_navsprites_hover.gif') 0 -45px;
+}
+
+#prev a:hover {
+  background: url('img_navsprites_hover.gif') -47px -45px;
+}
+
+#next a:hover {
+  background: url('img_navsprites_hover.gif') -91px -45px;
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+*/
