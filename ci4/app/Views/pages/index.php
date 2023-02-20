@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <title>EC Sarong Page</title>
- <link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" type="text/css" href="css/styles.css">
  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide|Sofia|Trirong">
 <meta name="confidential student" content="about">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
