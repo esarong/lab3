@@ -1,17 +1,17 @@
 <h2><?= esc($title) ?></h2>
 
-<?php if (! empty($news) && is_array($news)): ?>
+<?php if (! empty($guest) && is_array($guest)): ?>
 
-    <?php foreach ($news as $news_item): ?>
+    <?php foreach ($guest as $guest_item): ?>
 
-        <h3><?= esc($news_item['title']) ?></h3>
+        <h3><?= esc($guest_item['title']) ?></h3>
 
         <div class="main">
         <h3><?= esc($guest_item['name']) ?></h3>
             <p><?= esc($guest_item['email']) ?></p>
             <p><?= esc($guest_item['comment']) ?></p>
         </div>
-        <p><a href="/news/<?= esc($news_item['slug'], 'url') ?>">View article</a></p>
+        <p><a href="/lab3/ci4/public/guest/<?= esc($news_item['slug'], 'url') ?>">View article</a></p>
 
     <?php endforeach ?>
 
