@@ -11,7 +11,7 @@
             <p><?= esc($guest_item['email']) ?></p>
             <p><?= esc($guest_item['comment']) ?></p>
         </div>
-        <p><a href="/lab3/ci4/public/guest/<?= esc($news_item['slug'], 'url') ?>">View article</a></p>
+        <p><a href="~esarong/lab3/ci4/public/guest/<?= esc($news_item['slug'], 'url') ?>">View article</a></p>
 
     <?php endforeach ?>
 
