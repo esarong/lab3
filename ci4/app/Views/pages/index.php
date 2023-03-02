@@ -16,8 +16,8 @@
 
 <div class = "topnav">
 
-  <a class="active" href="index.html">Home</a>
-  <a href="resources.html">Resources</a>
+  <a class="active" href="index.php">Home</a>
+  <a href="resources.php">Resources</a>
   <a href="#contact">Contact</a>
   <a href="#about">About</a>
 
