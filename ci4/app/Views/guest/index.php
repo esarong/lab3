@@ -4,20 +4,16 @@
 
     <?php foreach ($guest as $guest_item): ?>
 
-        <div class="main">
-		<br>
-		<b>
-		<table>
-		<tr>
-		<th>-----</th>
-		 <th><?= esc($guest_item['name']) ?> </th>
-         <th><?= esc($guest_item['email']) ?> </th>
-		 <th><?= esc($guest_item['comment']) ?> </th>
-		</tr>
-		</table>
+        <<div class="main">
+        <h3><?= esc($guest_item['name']) ?></h3>
+            <p><?= esc($guest_item['email']) ?>
+            <p><?= esc($guest_item['website']) ?>
+            <p><?= esc($guest_item['comment']) ?>
+            <p><?= esc($guest_item['gender']) ?>
         </div>
+		
     <?php endforeach ?>
-    <p><a href="/lab3/ci4/public/guest/<?= esc($news_item['slug'], 'url') ?>">View article</a></p>
+    
 
 <?php else: ?>
     <h3>No guest</h3>
