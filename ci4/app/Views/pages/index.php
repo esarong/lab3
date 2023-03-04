@@ -316,7 +316,7 @@ echo $gender;
 if ($_SERVER["REQUEST_METHOD"] == "POST")
 {
 
-<<<<<<< HEAD
+  <<<<<<< HEAD
 	$servername = "localhost";
 	$username = "root";
 	$password = "";
