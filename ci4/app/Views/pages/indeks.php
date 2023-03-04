@@ -316,9 +316,9 @@ echo $gender;
 if ($_SERVER["REQUEST_METHOD"] == "POST")
 {
 
-	$servername = "localhost";
-	$username = "root";
-	$password = "";
+	$servername = "192.168.150.213";
+	$username = "webprogmi211";
+	$password = "j@zzyAngle30";
 	$dbname = "webprogmi211";
 
 	// Create connection
@@ -329,7 +329,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST")
 	}
 
 
-  $sql = "INSERT INTO esarong_myguest (name, email, website, comment, gender)
+  $sql = "INSERT INTO esarong_myguests (name, email, website, comment, gender)
 	VALUES ('$name', '$email', '$website', '$comment', '$gender')";
 
 	if ($conn->query($sql) === TRUE) {
