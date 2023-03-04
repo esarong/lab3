@@ -316,15 +316,9 @@ echo $gender;
 if ($_SERVER["REQUEST_METHOD"] == "POST")
 {
 
-  <<<<<<< HEAD
-	$servername = "localhost";
-	$username = "root";
-	$password = "";
-=======
 	$servername = "192.168.150.213";
 	$username = "webprogmi211";
 	$password = "j@zzyAngle30";
->>>>>>> 48486afcf20168894c6348e2aef442d61b4db592
 	$dbname = "webprogmi211";
 
 	// Create connection
@@ -348,9 +342,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST")
 }
 ?>
 
-
-
-
 <div class = "footer">
 <p> All Rights Reserved 2022 &copy;</p>
 </div>
@@ -359,7 +350,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST")
 <script src="myscript.js"></script>
 </body>
 </html>
-
 
 </body>
 </html>
